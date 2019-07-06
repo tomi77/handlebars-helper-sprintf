@@ -4,7 +4,7 @@
   "description": "Wrap sprintf-js functions to Handlebars helpers",
   "main": "index.js",
   "scripts": {
-    "test": "jasmine"
+    "test": "istanbul cover jasmine"
   },
   "repository": {
     "type": "git",
@@ -26,6 +26,7 @@
     "sprintf-js": "^1.1.1"
   },
   "devDependencies": {
+    "istanbul": "^0.4.5",
     "jasmine": "^3.4.0"
   },
   "peerDependencies": {

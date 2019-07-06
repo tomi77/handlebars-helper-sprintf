@@ -1,0 +1,34 @@
+{
+  "name": "handlebars-helpers-sprintf-js",
+  "version": "1.0.0",
+  "description": "Wrap sprintf-js functions to Handlebars helpers",
+  "main": "index.js",
+  "scripts": {
+    "test": "jasmine"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tomi77/handlebars-helpers-sprintf-js.git"
+  },
+  "keywords": [
+    "handlebars",
+    "helpers",
+    "sprintf",
+    "vsprintf"
+  ],
+  "author": "Tomasz Jakub Rup",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tomi77/handlebars-helpers-sprintf-js/issues"
+  },
+  "homepage": "https://github.com/tomi77/handlebars-helpers-sprintf-js",
+  "dependencies": {
+    "sprintf-js": "^1.1.1"
+  },
+  "devDependencies": {
+    "jasmine": "^3.4.0"
+  },
+  "peerDependencies": {
+    "handlebars": ">=4.0.0"
+  }
+}

@@ -1,5 +1,6 @@
 # handlebars-helpers-sprintf-js
-Wrap sprintf-js functions to Handlebars helpers
+
+Wrap [sprintf-js](https://www.npmjs.com/package/sprintf-js) functions to [Handlebars](http://handlebarsjs.com/) helpers
 
 ## Installation
 

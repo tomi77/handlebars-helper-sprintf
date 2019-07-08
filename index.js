@@ -7,12 +7,11 @@
 
   Released under the MIT license
  */
-const Handlebars = require('handlebars');
 const sprintf = require('./sprintf');
 const vsprintf = require('./vsprintf');
 
 module.exports = {
-    register: () => {
+    register: (Handlebars) => {
         Handlebars.registerHelper('sprintf', sprintf);
         Handlebars.registerHelper('vsprintf', vsprintf);
     },

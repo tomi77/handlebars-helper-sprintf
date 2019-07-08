@@ -21,9 +21,10 @@ npm install handlebars-helpers-sprintf-js
 Register helpers:
 
 ~~~js
+const Handlebars = require('handlebars');
 const helper = require('handlebars-helpers-sprintf-js');
 
-helper.register();
+helper.register(Handlebars);
 ~~~
 
 Use:
